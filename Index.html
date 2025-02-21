@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baseball Fielding Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="main-menu">
+        <h1>Baseball Fielding Quiz</h1>
+        <button id="start-quiz">Start Quiz</button>
+        <button id="instructions">Instructions</button>
+        <button id="high-scores">High Scores</button>
+    </div>
+
+    <div id="quiz" style="display: none;">
+        <h2>Question <span id="question-number"></span> of <span id="total-questions"></span></h2>
+        <p id="scenario"></p>
+        <div id="options"></div>
+    </div>
+
+    <div id="feedback" style="display: none;">
+        <h2><span id="feedback-title"></span></h2>
+        <p id="explanation"></p>
+        <button id="next-question">Next Question</button>
+    </div>
+
+    <div id="final-score" style="display: none;">
+        <h2>Quiz Completed!</h2>
+        <p>Your score: <span id="score"></span> out of <span id="total-questions-score"></span></p>
+        <p id="performance-message"></p>
+        <button id="play-again">Play Again</button>
+    </div>
+
+    <div id="instructions-page" style="display: none;">
+        <h2>Instructions</h2>
+        <p>Welcome to the Baseball Fielding Quiz! Answer each question by tapping the correct option. You’ll learn where to throw the ball and how to position yourself in different game situations. After each answer, you’ll get feedback to help you improve. Have fun and good luck!</p>
+        <button id="back-to-menu">Back</button>
+    </div>
+
+    <div id="high-scores-page" style="display: none;">
+        <h2>High Scores</h2>
+        <p>Your best score: <span id="best-score">0</span></p>
+        <button id="back-to-menu-hs">Back</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
