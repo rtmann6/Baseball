@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h1, h2 {
+    color: #006400; /* Dark green, like a baseball field */
+}
+
+button {
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 18px;
+    background-color: #8b4513; /* Brown, like baseball dirt */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%;
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover {
+    background-color: #a0522d;
+}
+
+#options button {
+    width: 90%;
+    background-color: #4682b4; /* Blue for options */
+}
+
+#options button:hover {
+    background-color: #5a9bd4;
+}
+
+#feedback, #final-score, #instructions-page, #high-scores-page {
+    margin-top: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 14px;
+    }
+    button {
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+}
